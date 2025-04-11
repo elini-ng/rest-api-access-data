@@ -1,6 +1,5 @@
 package com.estsoft.restapiaccessdata.dto;
 
-import com.estsoft.restapiaccessdata.domain.Article;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

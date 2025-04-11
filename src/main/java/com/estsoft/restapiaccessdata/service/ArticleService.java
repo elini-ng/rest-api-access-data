@@ -1,7 +1,6 @@
 package com.estsoft.restapiaccessdata.service;
 
 import com.estsoft.restapiaccessdata.domain.Article;
-import com.estsoft.restapiaccessdata.dto.ArticleResponseDto;
 import com.estsoft.restapiaccessdata.repository.ArticleRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
