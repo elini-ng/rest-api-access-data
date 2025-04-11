@@ -1,0 +1,25 @@
+### POST new comment
+POST http://localhost:8080/api/articles/3/comments
+Content-Type: application/json
+
+{
+  "body": "comment"
+}
+
+### GET comment by id
+GET http://localhost:8080/api/comments/1
+
+
+### PUT comment
+PUT http://localhost:8080/api/comments/2
+Content-Type: application/json
+
+{
+  "body": "comment 2 new"
+}
+
+### DELETE comment
+DELETE http://localhost:8080/api/comments/3
+
+### GET article by id
+GET http://localhost:8080/api/articles/2/comments
