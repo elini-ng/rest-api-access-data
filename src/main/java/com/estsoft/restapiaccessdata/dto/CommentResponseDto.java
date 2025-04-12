@@ -21,9 +21,7 @@ public class CommentResponseDto {
 
     public CommentResponseDto(Comment comment) {
         this.commentId = comment.getCommentId();
-        if (comment.getArticle() != null) {
-            this.articleId = comment.getArticle().getArticleId();
-        }
+        this.articleId = comment.getArticle().getArticleId();
         this.body = comment.getBody();
         this.createdAt = comment.getCreatedAt();
         this.article = new ArticleDTO(comment.getArticle());
